@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antony Alex — Creative Designer & Vibe Coder</title>
+  <meta name="description" content="Portfolio of Antony Alex — Creative Designer based in Kerala, India. Specializing in logo design, visual identity, and digital experiences through vibe coding.">
+  <meta name="keywords" content="Antony Alex, Creative Designer, Visual Identity, Logo Design, Vibe Coding, Data Analytics, Kerala, Portfolio">
+  <meta name="author" content="Antony Alex">
+  <link rel="canonical" href="https://antonyalex.design">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Antony Alex — Creative Designer">
+  <meta property="og:description" content="Thoughtful visual identities, logos, and digital experiences built with technical foundation and vibe coding.">
+  <meta property="og:site_name" content="Antony Alex Portfolio">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Antony Alex Homepage">
+        <span class="logo-mark">A<span class="dot">.</span>A</span>
+        <span class="logo-text">Antony Alex</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#work" class="nav-item">Selected Work</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#experience" class="nav-item">Experience</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#vibe-lab" class="nav-item vibe-link">Vibe Lab <span class="badge-mini">New</span></a>
+        <a href="#contact" class="nav-cta btn-pill">Get in Touch</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle visual theme" title="Toggle color theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <div class="status-pill" data-reveal>
+            <span class="pulse-indicator"></span>
+            <span>Available for select design & vibe coding projects</span>
+          </div>
+
+          <h1 class="hero-title" data-reveal>
+            Antony Alex<span class="accent-period">.</span>
+            <span class="hero-role-line">Creative Designer <span class="vibe-italic">&amp; Digital Explorer</span></span>
+          </h1>
+
+          <p class="hero-intro" data-reveal>
+            Crafting distinct visual identities, memorable logos, and responsive digital interfaces. Grounded in computer science, shaped by agency experience, and energized by the creative velocity of <em>vibe coding</em>.
+          </p>
+
+          <div class="hero-location" data-reveal>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Based in Kerala, India</span>
+          </div>
+
+          <div class="hero-actions" data-reveal>
+            <a href="#work" class="btn btn-primary">
+              <span>View Selected Work</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="hero-card-glass">
+            <div class="hero-card-header">
+              <span class="dot-ctrl red"></span>
+              <span class="dot-ctrl yellow"></span>
+              <span class="dot-ctrl green"></span>
+              <span class="card-caption">design_philosophy.vibe</span>
+            </div>
+            <div class="hero-card-body">
+              <div class="code-line"><span class="kwd">const</span> <span class="var">designer</span> = {</div>
+              <div class="code-line indent"><span class="prop">name</span>: <span class="str">"Antony Alex"</span>,</div>
+              <div class="code-line indent"><span class="prop">focus</span>: [<span class="str">"Logo Design"</span>, <span class="str">"Visual Identity"</span>],</div>
+              <div class="code-line indent"><span class="prop">medium</span>: <span class="str">"Pixels + Vibe Coding"</span>,</div>
+              <div class="code-line indent"><span class="prop">foundation</span>: <span class="str">"B.Sc. Computer Science"</span>,</div>
+              <div class="code-line indent"><span class="prop">aesthetic</span>: <span class="str">"Refined, Intentional, Modern"</span></div>
+              <div class="code-line">};</div>
+              <div class="manifesto-quote">
+                “Design gives software an identity; code gives imagination a physical pulse.”
+              </div>
+            </div>
+            <div class="hero-card-footer">
+              <div class="badge-tag">Brand Systems</div>
+              <div class="badge-tag">Minimalist Craft</div>
+              <div class="badge-tag">Rapid Prototyping</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Selected Work Section -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="section-label">Portfolio Portfolio / 01</div>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-subtitle">
+            A curated showcase of identity systems, conceptual marks, and interactive digital interfaces. Real-world projects alongside exploratory design concepts.
+          </p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="work-filters" data-reveal aria-label="Project filter buttons">
+          <button class="filter-btn active" data-filter="all">All Works</button>
+          <button class="filter-btn" data-filter="identity">Visual Identity</button>
+          <button class="filter-btn" data-filter="logo">Logo Design</button>
+          <button class="filter-btn" data-filter="digital">Vibe &amp; Digital</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- Project 1: Brand Concept -->
+          <article class="project-card" data-category="identity" data-reveal>
+            <div class="project-preview preview-mono">
+              <div class="concept-badge">Concept Prototype</div>
+              <div class="preview-canvas">
+                <svg viewBox="0 0 320 200" class="project-svg" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#3b82f6"/>
+                      <stop offset="100%" stop-color="#06b6d4"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="100%" height="100%" fill="transparent"/>
+                  <circle cx="160" cy="100" r="54" stroke="url(#grad1)" stroke-width="2.5" fill="none" opacity="0.6"/>
+                  <polygon points="160,55 195,125 125,125" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <circle cx="160" cy="100" r="16" fill="url(#grad1)" opacity="0.8"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">Visual Identity</span>
+                <span class="project-year">Concept</span>
+              </div>
+              <h3 class="project-title">Aura Spatial Identity System</h3>
+              <p class="project-desc">
+                Exploratory branding system for an ambient hardware startup, merging geometric structure with kinetic typography.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Brand Identity</span>
+                <span class="tag">Typography</span>
+                <span class="tag">Packaging Concept</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Logo Mark Concept -->
+          <article class="project-card" data-category="logo" data-reveal>
+            <div class="project-preview preview-dark">
+              <div class="concept-badge">Concept Exploration</div>
+              <div class="preview-canvas">
+                <svg viewBox="0 0 320 200" class="project-svg" aria-hidden="true">
+                  <path d="M120 140 L160 60 L200 140 L175 140 L160 105 L145 140 Z" fill="currentColor"/>
+                  <circle cx="160" cy="92" r="6" fill="#10b981"/>
+                  <path d="M110 150 C135 165 185 165 210 150" stroke="#10b981" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">Logo Design</span>
+                <span class="project-year">Placeholder</span>
+              </div>
+              <h3 class="project-title">Kalyan Architectural Mark</h3>
+              <p class="project-desc">
+                Minimalist monogram balancing negative space, high contrast letterforms, and structural precision.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Monogram</span>
+                <span class="tag">Vector Craft</span>
+                <span class="tag">Negative Space</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Vibe Digital Project -->
+          <article class="project-card" data-category="digital" data-reveal>
+            <div class="project-preview preview-glow">
+              <div class="concept-badge">Vibe Coding Concept</div>
+              <div class="preview-canvas">
+                <div class="vibe-terminal-preview">
+                  <span class="term-tag">&gt; vibe: generative palette</span>
+                  <div class="mini-palette-bars">
+                    <span style="background: #f43f5e;"></span>
+                    <span style="background: #fb923c;"></span>
+                    <span style="background: #38bdf8;"></span>
+                    <span style="background: #a855f7;"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">Digital &amp; Vibe Coding</span>
+                <span class="project-year">Prototype</span>
+              </div>
+              <h3 class="project-title">ChromaFlow Reactive UI</h3>
+              <p class="project-desc">
+                Experimental micro-application translating mood descriptions into real-time harmonic brand palette tokens.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Vibe Coding</span>
+                <span class="tag">Vanilla JS</span>
+                <span class="tag">UI/UX</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Marketing Agency Design Space -->
+          <article class="project-card" data-category="identity" data-reveal>
+            <div class="project-preview preview-warm">
+              <div class="concept-badge">Client Work Placeholder</div>
+              <div class="preview-canvas">
+                <div class="editorial-card-graphic">
+                  <div class="agency-badge">Agency Project Space</div>
+                  <div class="wire-lines">
+                    <span class="line l1"></span>
+                    <span class="line l2"></span>
+                    <span class="line l3"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">Visual Identity &amp; Collateral</span>
+                <span class="project-year">Editable Space</span>
+              </div>
+              <h3 class="project-title">Campaign Identity &amp; Social Collateral</h3>
+              <p class="project-desc">
+                Design assets created during agency tenure. Ready to be populated with specific client case studies, banners, and print assets.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Agency Work</span>
+                <span class="tag">Campaign Graphics</span>
+                <span class="tag">Editable</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Logo System Concept -->
+          <article class="project-card" data-category="logo" data-reveal>
+            <div class="project-preview preview-grid">
+              <div class="concept-badge">Concept Exploration</div>
+              <div class="preview-canvas">
+                <svg viewBox="0 0 320 200" class="project-svg" aria-hidden="true">
+                  <rect x="90" y="60" width="40" height="80" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+                  <circle cx="170" cy="100" r="38" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-dasharray="6 4"/>
+                  <polygon points="215,60 255,140 175,140" fill="none" stroke="currentColor" stroke-width="1.8" opacity="0.4"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">Logo Design</span>
+                <span class="project-year">Concept</span>
+              </div>
+              <h3 class="project-title">Nexus Tech Brandmark</h3>
+              <p class="project-desc">
+                Constructivist geometry for high-tech ventures requiring recognizable scalable icons across small app interfaces.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Symbol System</span>
+                <span class="tag">Responsive Marks</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Data-Informed Visualization -->
+          <article class="project-card" data-category="digital" data-reveal>
+            <div class="project-preview preview-data">
+              <div class="concept-badge">Data + Design Concept</div>
+              <div class="preview-canvas">
+                <div class="data-bars-preview">
+                  <div class="dbar" style="height: 40%"></div>
+                  <div class="dbar" style="height: 75%"></div>
+                  <div class="dbar" style="height: 55%"></div>
+                  <div class="dbar" style="height: 90%"></div>
+                  <div class="dbar" style="height: 60%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-category">Data &amp; Digital</span>
+                <span class="project-year">Concept</span>
+              </div>
+              <h3 class="project-title">Insight Studio Dashboard UI</h3>
+              <p class="project-desc">
+                Bridging data analytics discipline with editorial clarity. Clean data visualizations engineered for quick visual consumption.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Analytics UI</span>
+                <span class="tag">Information Design</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-lead" data-reveal>
+            <div class="section-label">Perspective / 02</div>
+            <h2 class="section-title">A designer who thinks in structures, narratives, and code.</h2>
+            
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-num">1</span>
+                <span class="stat-unit">Year</span>
+                <span class="stat-label">Agency Experience</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">B.Sc.</span>
+                <span class="stat-unit">CS</span>
+                <span class="stat-label">St. Albert’s College</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">Data</span>
+                <span class="stat-unit">Nirmaan</span>
+                <span class="stat-label">Infosys Supported</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-narrative" data-reveal>
+            <div class="narrative-card">
+              <h3 class="narrative-heading">The Intersect of Design &amp; Logic</h3>
+              <p>
+                I am <strong>Antony Alex</strong>, a creative designer based in <strong>Kerala, India</strong>. My path in design is shaped by an organic curiosity for how aesthetics connect with logic. 
+              </p>
+              <p>
+                With a background in <strong>Computer Science (B.Sc.)</strong>, I don’t view design as merely decorative surface work. Instead, I appreciate visual systems the way an engineer appreciates sound architecture: balanced, systematic, scalable, and built for real human interaction.
+              </p>
+              <p>
+                During my <strong>one year at a marketing agency</strong>, I tackled fast-paced creative briefs, translated business goals into striking visual assets, and delivered campaigns tailored for distinct audiences.
+              </p>
+              <p>
+                Today, I’m deeply passionate about <strong>vibe coding</strong>—using modern AI-driven velocity and rapid prototyping to turn graphic design ideas into living, interactive digital artifacts without friction.
+              </p>
+              
+              <div class="location-banner">
+                <span class="loc-pin">📍</span>
+                <div>
+                  <strong>Rooted in Kerala, India</strong>
+                  <p class="text-muted">Available for hybrid roles, remote partnerships, and brand identity projects worldwide.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive "Vibe Lab" Feature Showcase -->
+    <section class="section vibe-lab-section" id="vibe-lab">
+      <div class="container">
+        <div class="vibe-lab-card" data-reveal>
+          <div class="vibe-lab-header">
+            <div>
+              <span class="section-label accent-text">Interactive Sandbox / 03</span>
+              <h2 class="vibe-lab-title">The Vibe Coding Studio</h2>
+              <p class="vibe-lab-desc">
+                Experience how design sensibility and rapid vibe coding merge. Select a brand vibe to test instant dynamic UI styling.
+              </p>
+            </div>
+            <div class="vibe-status-tag">Live Micro-Demo</div>
+          </div>
+
+          <div class="vibe-sandbox">
+            <div class="vibe-controls">
+              <label class="control-label" id="vibeSelectorLabel">Choose Brand Vibe:</label>
+              <div class="vibe-buttons" role="group" aria-labelledby="vibeSelectorLabel">
+                <button class="vibe-btn active" data-vibe="editorial">Editorial Minimal</button>
+                <button class="vibe-btn" data-vibe="cyber">Cyber Obsidian</button>
+                <button class="vibe-btn" data-vibe="warm">Warm Terracotta</button>
+                <button class="vibe-btn" data-vibe="electric">Electric Citron</button>
+              </div>
+
+              <div class="vibe-code-snippet">
+                <div class="snippet-header">
+                  <span>vibe_style.css</span>
+                  <span class="snippet-lang">Active Tokens</span>
+                </div>
+                <pre class="snippet-body"><code id="vibeCodeDisplay">/* Current Active Vibe Tokens */
+--accent: #2563eb;
+--bg-surface: #111827;
+--font-editorial: 'Space Grotesk';
+--style-mood: 'Crisp &amp; Systematic';</code></pre>
+              </div>
+            </div>
+
+            <div class="vibe-preview-canvas" id="vibeCanvasTarget">
+              <div class="interactive-preview-card">
+                <div class="card-chip">Brand Identity Specimen</div>
+                <h4 class="preview-headline">Typography &amp; Form</h4>
+                <p class="preview-copy">
+                  Dynamic visual tokens harmonized through prompt-driven aesthetic logic.
+                </p>
+                <div class="preview-actions">
+                  <button class="demo-btn primary">Primary Action</button>
+                  <button class="demo-btn outline">Details</button>
+                </div>
+                <div class="preview-footer-meta">
+                  <span>Rendered in real-time</span>
+                  <span class="preview-indicator">● Active</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="section-label">Track Record / 04</div>
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">
+            Professional background and creative agency foundation.
+          </p>
+        </div>
+
+        <div class="timeline" data-reveal>
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-period">[Year / Dates — Editable]</span>
+              <span class="timeline-type">Full-Time (1 Year)</span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-role-row">
+                <h3 class="role-title">Creative Designer</h3>
+                <span class="company-badge">[Marketing Agency Name — Editable Placeholder]</span>
+              </div>
+              <p class="timeline-summary">
+                Contributed to end-to-end design initiatives across one year of agency practice, collaborating directly with creative directors, copywriters, and account managers to build cohesive brand identities and digital marketing deliverables.
+              </p>
+              <ul class="timeline-points">
+                <li>Crafted brand assets, social media design frameworks, and promotional creatives for diverse agency client accounts.</li>
+                <li>Participated in visual identity ideation sessions, translating client design briefs into high-impact visual mockups.</li>
+                <li>Maintained brand consistency across multiple concurrent creative projects and marketing touchpoints.</li>
+                <li><span class="edit-hint">[Placeholder: Replace with specific client achievements or campaign metrics when available]</span></li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Agency Production</span>
+                <span>Visual Systems</span>
+                <span>Client Collateral</span>
+                <span>Brand Continuity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Education & Training Section -->
+    <section class="section edu-section" id="education">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="section-label">Academic &amp; Training / 05</div>
+          <h2 class="section-title">Education &amp; Credentials</h2>
+          <p class="section-subtitle">
+            Formal foundations in computation, analytics, and analytical problem-solving.
+          </p>
+        </div>
+
+        <div class="edu-grid">
+          <!-- Degree -->
+          <div class="edu-card" data-reveal>
+            <div class="edu-icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <div class="edu-details">
+              <span class="edu-badge">Degree Program</span>
+              <h3 class="edu-title">B.Sc. in Computer Science</h3>
+              <p class="edu-institution">St. Albert’s College (Autonomous), Ernakulam</p>
+              <p class="edu-desc">
+                Cultivated a strong algorithmic grounding, software logic, system structure, and mathematical foundations. Provides a distinct technical advantage when bridging graphic design with modern digital platforms and vibe coding.
+              </p>
+              <div class="edu-highlights">
+                <span>Ernakulam, Kerala</span>
+                <span>Autonomous Institution</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Training -->
+          <div class="edu-card" data-reveal>
+            <div class="edu-icon-wrap accent-tint">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            </div>
+            <div class="edu-details">
+              <span class="edu-badge">Specialized Training</span>
+              <h3 class="edu-title">Data Analytics Course</h3>
+              <p class="edu-institution">Nirmaan.org <span class="supporter-tag">Supported by Infosys Foundation</span></p>
+              <p class="edu-desc">
+                Rigorous training program focused on structured data comprehension, quantitative insights, and analytical reporting. Enhances the ability to create data-driven visualizations and user-centric information layouts.
+              </p>
+              <div class="edu-highlights">
+                <span>Nirmaan Organization</span>
+                <span>Infosys Foundation Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="section-label">Competencies / 06</div>
+          <h2 class="section-title">Skills &amp; Capabilities</h2>
+          <p class="section-subtitle">
+            Focused capabilities based on verified experience and educational background.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="skill-category-card" data-reveal>
+            <div class="skill-cat-header">
+              <span class="cat-num">01</span>
+              <h3>Logo Design</h3>
+            </div>
+            <p class="cat-desc">
+              Distilling organizational missions into simple, distinctive, and versatile brand marks engineered for cross-medium scalability.
+            </p>
+            <div class="skill-pills">
+              <span>Minimal Monograms</span>
+              <span>Symbol Construction</span>
+              <span>Vector Crafting</span>
+              <span>Grid Precision</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card" data-reveal>
+            <div class="skill-cat-header">
+              <span class="cat-num">02</span>
+              <h3>Visual Identity</h3>
+            </div>
+            <p class="cat-desc">
+              Holistic visual systems including color harmonies, typography pairings, packaging concepts, and editorial guidelines.
+            </p>
+            <div class="skill-pills">
+              <span>Brand Guidelines</span>
+              <span>Color Systems</span>
+              <span>Type Hierarchies</span>
+              <span>Marketing Collateral</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card" data-reveal>
+            <div class="skill-cat-header">
+              <span class="cat-num">03</span>
+              <h3>Creative Design</h3>
+            </div>
+            <p class="cat-desc">
+              Conceptualizing engaging layouts for campaigns, social narratives, print collateral, and digital presentations.
+            </p>
+            <div class="skill-pills">
+              <span>Editorial Layouts</span>
+              <span>Campaign Art</span>
+              <span>Visual Composition</span>
+              <span>Social Creatives</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card" data-reveal>
+            <div class="skill-cat-header">
+              <span class="cat-num">04</span>
+              <h3>Vibe Coding</h3>
+            </div>
+            <p class="cat-desc">
+              Rapid creative exploration combining design intuition with modern developer workflows to build lively interactive web experiences.
+            </p>
+            <div class="skill-pills">
+              <span>Rapid Prototyping</span>
+              <span>Interactive HTML/CSS</span>
+              <span>Visual Experimentation</span>
+              <span>Design to Code</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card" data-reveal>
+            <div class="skill-cat-header">
+              <span class="cat-num">05</span>
+              <h3>Data Analytics</h3>
+            </div>
+            <p class="cat-desc">
+              Trained through Nirmaan.org with Infosys Foundation support to understand data structures, trends, and clarity in information design.
+            </p>
+            <div class="skill-pills">
+              <span>Data Interpretation</span>
+              <span>Information Hierarchy</span>
+              <span>Quantitative Thinking</span>
+              <span>Analytical Reports</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card" data-reveal>
+          <div class="contact-header">
+            <div class="section-label">Collaboration / 07</div>
+            <h2 class="contact-title">Let's create something memorable together.</h2>
+            <p class="contact-subtitle">
+              Whether you need a distinct brand identity, a thoughtful logo, or want to explore an interactive vibe coding project, I’d love to hear from you.
+            </p>
+          </div>
+
+          <div class="contact-details-grid">
+            
+            <div class="contact-info-col">
+              <div class="info-block">
+                <span class="info-label">Direct Inquiries</span>
+                <div class="email-copy-box">
+                  <a href="mailto:antony.alex.placeholder@example.com" id="userEmail" class="email-link">
+                    antony.alex.placeholder@example.com
+                  </a>
+                  <button id="copyEmailBtn" class="copy-btn" title="Copy email address" aria-label="Copy email address">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span class="copy-tooltip" id="copyTooltip">Copy</span>
+                  </button>
+                </div>
+                <p class="info-hint">Editable placeholder — replace with your actual inbox address.</p>
+              </div>
+
+              <div class="info-block">
+                <span class="info-label">Location &amp; Availability</span>
+                <p class="info-val">Kerala, India</p>
+                <p class="info-sub">Available for freelance brand commissions, agency contracts, and full-time creative opportunities.</p>
+              </div>
+
+              <div class="info-block">
+                <span class="info-label">Professional Links</span>
+                <div class="social-links-list">
+                  <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg>
+                    <span>LinkedIn [Placeholder]</span>
+                  </a>
+
+                  <a href="https://behance.net/placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 6h4M3 8h5a3 3 0 0 1 0 6H3zm0 6h6a3 3 0 0 1 0 6H3zM13 14a4 4 0 0 0 8 0c0-2-2-4-4-4a4 4 0 0 0-4 4z"></path></svg>
+                    <span>Behance / Portfolio [Placeholder]</span>
+                  </a>
+
+                  <a href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                    <span>GitHub [Placeholder]</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-col">
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="senderName">Your Name</label>
+                  <input type="text" id="senderName" name="name" placeholder="e.g. Maya Sharma" required>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderEmail">Email Address</label>
+                  <input type="email" id="senderEmail" name="email" placeholder="name@company.com" required>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="projectType">Inquiry Type</label>
+                  <select id="projectType" name="type">
+                    <option value="Logo Design">Logo Design</option>
+                    <option value="Visual Identity">Visual Identity System</option>
+                    <option value="Vibe Coding / Digital Project">Vibe Coding / Digital Experience</option>
+                    <option value="Agency / Full-Time Role">Agency / Full-Time Opportunity</option>
+                    <option value="Other">Other Collaboration</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderMessage">Message</label>
+                  <textarea id="senderMessage" name="message" rows="4" placeholder="Briefly describe your project, timeline, or question..." required></textarea>
+                  <span class="field-error" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>Send Message</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+                <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-logo">Antony Alex</span>
+        <span class="footer-copy">Creative Designer &bull; Kerala, India</span>
+      </div>
+      <div class="footer-right">
+        <p class="footer-note">Crafted with intentional typography, accessible CSS &amp; vibe coding.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          Back to top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox / Modal for Project Detail Inspection -->
+  <div class="project-modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamically injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification" aria-live="polite">
+    <span id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
